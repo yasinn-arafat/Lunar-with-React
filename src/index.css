@@ -1,0 +1,64 @@
+/* =============== Product Sans Font  ================= */
+
+@import url("https://fonts.cdnfonts.com/css/product-sans");
+
+/* =============== HK Grotesk Font  ================= */
+
+@import url("https://fonts.cdnfonts.com/css/hk-groteks");
+
+/* ====================================
+            Common Css Start 
+ ====================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+ul,
+ol,
+li,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+body {
+  font-family: "Product Sans", sans-serif;
+}
+
+:root {
+  --font-family: "HK Grotesk", sans-serif;
+}
+
+/* ====================================
+            Common Css End 
+ ====================================== */
