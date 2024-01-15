@@ -1,0 +1,113 @@
+/* ======================================
+            Navbar css Start
+=========================================*/
+
+.nav {
+  padding: 36px 0px;
+  background: #fff;
+  box-shadow: 0px 12px 22px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navWraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  column-gap: 43px;
+}
+
+.menuList {
+  display: flex;
+  align-items: center;
+  column-gap: 49px;
+}
+
+.menu__item a {
+  color: #000;
+  font-family: var(--HK-Grotesk);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  position: relative;
+}
+
+.menu__item a::after {
+  position: absolute;
+  background: var(--Purple);
+  height: 3px;
+  width: 100%;
+  content: "";
+  bottom: -6%;
+  left: 0%;
+  transform: scale(0, 1);
+  -webkit-transform: scale(0, 1);
+  -moz-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  -o-transform: scale(0, 1);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.menu__item a:hover::after {
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+}
+
+.menu__item a:hover {
+  color: var(--Purple, #7c14fd);
+}
+
+.blog--icon {
+  display: flex;
+  align-items: center;
+}
+
+.blog--icon:hover .down--arrow {
+  color: var(--Purple, #7c14fd);
+}
+
+.down--arrow {
+  font-size: 25px;
+  padding-left: 3px;
+}
+
+.menu__btn {
+  padding: 14px 28px 12px;
+  color: var(--Purple, #7c14fd);
+  background: transparent;
+  font-family: var(--HK-Grotesk);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 1000px;
+  border: 1px solid var(--Purple, #7c14fd);
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.menu__btn:hover {
+  background: var(--Purple, #7c14fd);
+  color: #fff;
+}
+
+/* ======================================
+            Navbar css End
+=========================================*/
