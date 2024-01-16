@@ -12,7 +12,9 @@ const Navbar = () => {
             <div className="navWraper">
               <div className="navLogo">
                 <picture>
-                  <img src={logo} alt={logo} />
+                  <a href="#">
+                    <img src={logo} alt={logo} />
+                  </a>
                 </picture>
               </div>
               <div className="navMenu">

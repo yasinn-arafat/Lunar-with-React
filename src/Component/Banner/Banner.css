@@ -1,0 +1,57 @@
+.banner {
+  background: #faf6ff;
+  padding-bottom: 100px;
+}
+
+.bannerwraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner__title {
+  color: var(--Black, #000);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 115.7%;
+  letter-spacing: -1.14px;
+  padding-bottom: 36px;
+  padding-top: 90px;
+  position: relative;
+}
+
+.banner__title::after {
+  width: 88%;
+  height: 20px;
+  content: "";
+  position: absolute;
+  background: var(--Purple, #7c14fd);
+  top: 52.6%;
+  left: 0%;
+  opacity: 0.2;
+}
+
+.title__span {
+  color: var(--Purple, #7c14fd);
+}
+
+.banner__detailes {
+  color: var(--Black, #000);
+  font-family: var(--HK-Grotesk);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 119.7%;
+  opacity: 0.8;
+  padding-bottom: 20px;
+}
+
+.banner__icons {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  mix-blend-mode: luminosity;
+}
+
+.banner__img {
+  width: 100%;
+}
