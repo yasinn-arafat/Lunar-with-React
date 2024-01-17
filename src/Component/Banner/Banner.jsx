@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../CommonComponent/Button";
+import BannerWave from "../../assets/BannerWave.png";
 import "./Banner.css";
 
 const Banner = () => {
@@ -41,6 +43,7 @@ const Banner = () => {
                   </picture>
                 </div>
               </div>
+              <Button btnStyle="contactBtn" btnContent="Contact Us" />
             </div>
             <div className="bannerRight">
               <picture>
