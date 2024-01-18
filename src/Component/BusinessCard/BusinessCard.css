@@ -1,0 +1,118 @@
+/* ==================================
+        Business Card css Start
+=====================================*/
+
+.business {
+  background: var(--bg-color, #faf6ff);
+  padding-top: 25px;
+  padding-bottom: 85px;
+}
+
+.businessWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 45px;
+}
+
+.card {
+  width: 420px;
+  height: 455px;
+  padding: 100px 31px 40px 35px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: var(--bg-color, #faf6ff);
+  box-shadow: 0px 86px 114px 0px rgba(124, 20, 253, 0.14);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  width: 419px;
+  height: 454px;
+  border: 1px solid #b070ff;
+}
+
+.card__title {
+  color: var(--Black, #000);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.6px;
+  padding-bottom: 26px;
+}
+
+.card__details {
+  color: var(--Black, #000);
+  font-family: var(--HK-Grotesk);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-bottom: 58px;
+}
+
+.business__btn {
+  color: var(--White, #fff);
+  background: #b070ff;
+  font-family: var(--HK-Grotesk);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 13px 24px;
+  border-radius: 15px;
+  border: 1px solid #b070ff;
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.business__btn:hover {
+  color: var(--Purple);
+  background: transparent;
+  box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+}
+
+.read__btn {
+  font-size: 25px;
+}
+
+.businessBottom {
+  padding-top: 100px;
+}
+
+.bottom__num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.num__list {
+  color: var(--Black);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 37.6px;
+}
+
+.num--next {
+  color: #b070ff;
+}
+
+/* ==================================
+        Business Card css End
+=====================================*/

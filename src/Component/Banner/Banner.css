@@ -1,6 +1,6 @@
 .banner {
   background: #faf6ff;
-  padding-bottom: 145px;
+  padding-bottom: 270px;
   position: relative;
 }
 
@@ -8,7 +8,7 @@
   position: absolute;
   content: url("/src/assets/BannerWave.png");
   left: -17.5%;
-  bottom: -26%;
+  bottom: -5%;
   transform: scale(0.74);
   -webkit-transform: scale(0.74);
   -moz-transform: scale(0.74);
@@ -100,6 +100,6 @@
 .banner__img {
   width: 56%;
   position: absolute;
-  top: 12%;
+  top: 7%;
   left: 46%;
 }

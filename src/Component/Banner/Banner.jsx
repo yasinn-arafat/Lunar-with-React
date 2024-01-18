@@ -43,7 +43,7 @@ const Banner = () => {
                   </picture>
                 </div>
               </div>
-              <Button btnStyle="contactBtn" btnContent="Contact Us" />
+              <Button btnStyle="contactBtn">Contact Us</Button>
             </div>
             <div className="bannerRight">
               <picture>
