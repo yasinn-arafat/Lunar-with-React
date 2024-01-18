@@ -1,0 +1,85 @@
+/* ===================================
+        Marketing css Start
+======================================*/
+
+.marketing {
+  background: url(../../assets/FreeMeeting.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 662px;
+}
+
+.marketingWraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marketing__title {
+  color: var(--White, #fff);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 128.3%;
+  margin-top: 258px;
+  position: relative;
+}
+
+.marketing__title::after {
+  width: 125.803px;
+  height: 6px;
+  content: "";
+  position: absolute;
+  top: -18%;
+  left: 0%;
+  border-radius: 1000px;
+  background: linear-gradient(
+    90deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0.31) 123.02%
+  );
+}
+
+.marketing__email {
+  background: #fff;
+  width: 500px;
+  padding: 24px 40px;
+  margin-top: 236px;
+  border-radius: 1000px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.marketing__email:focus {
+  outline: 0;
+}
+
+.marketing__email::placeholder {
+  color: var(--Black, #000);
+  font-family: var(--HK-Grotesk);
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.form__btn {
+  color: var(--White, #fff);
+  background: #32046b;
+  font-family: var(--HK-Grotesk);
+  font-size: 24px;
+  font-weight: 700;
+  width: 500px;
+  padding: 24px 40px;
+  border-radius: 1000px;
+  box-shadow: 0px 41px 51px 0px rgba(118, 82, 164, 0.39);
+  border: none;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  background: var(--Purple);
+}
+
+/* ===================================
+        Marketing css End
+======================================*/
