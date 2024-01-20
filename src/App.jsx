@@ -4,6 +4,7 @@ import Banner from "./Component/Banner/Banner";
 import BusinessCard from "./Component/BusinessCard/BusinessCard";
 import Marketing from "./Component/Marketing/Marketing";
 import Testimonial from "./Component/Testimonial/Testimonial";
+import Articles from "./Component/Articels/Articles";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BusinessCard />
       <Marketing />
       <Testimonial />
+      <Articles />
     </>
   );
 }

@@ -42,7 +42,7 @@
   border: 1px solid #b070ff;
 }
 
-.card__title {
+.businesscard__title {
   color: var(--Black, #000);
   font-size: 28px;
   font-weight: 700;
@@ -50,7 +50,7 @@
   padding-bottom: 26px;
 }
 
-.card__details {
+.businesscard__details {
   color: var(--Black, #000);
   font-family: var(--HK-Grotesk);
   font-size: 18px;

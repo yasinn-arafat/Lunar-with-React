@@ -1,0 +1,121 @@
+/* ===================================
+        Articles Part css Start
+======================================*/
+
+.articles {
+  background: url(../../assets/Articles.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 662px;
+}
+
+.articlesWraper {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.articles__title {
+  color: var(--White, #fff);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 128.3%;
+  margin-top: 118px;
+  position: relative;
+}
+
+.articles__title::after {
+  width: 89px;
+  height: 3px;
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: 0%;
+  border-radius: 1000px;
+  background: linear-gradient(
+    90deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0.31) 123.02%
+  );
+}
+
+.articles__box {
+  width: 544px;
+  height: 395px;
+  border-radius: 50px;
+  background: #9642ff;
+  padding: 26px;
+  margin-top: 135px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+.articles__box:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.articlesCard__title {
+  color: var(--White, #fff);
+  font-family: var(--HK-Grotesk);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -1px;
+  padding-top: 30px;
+}
+
+.articlesCard__details {
+  color: var(--White, #fff);
+  font-family: var(--HK-Grotesk);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.8;
+  padding-top: 15px;
+  padding-bottom: 42px;
+}
+
+.box__btn {
+  color: var(--Black, #000);
+  background: var(--White, #fff);
+  font-family: var(--HK-Grotesk);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 30px;
+  border-radius: 20px;
+  padding: 19px 28px;
+  border: none;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.box__btn:hover {
+  color: var(--White, #fff);
+  background: #b070ff;
+  box-shadow: 0px 26px 46px 0px #8a30fb;
+  transform: translateX(7%);
+  -webkit-transform: translateX(7%);
+  -moz-transform: translateX(7%);
+  -ms-transform: translateX(7%);
+  -o-transform: translateX(7%);
+}
+
+/* ===================================
+        Articles Part css End
+======================================*/

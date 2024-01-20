@@ -12,7 +12,9 @@ const BusinessCard = () => {
           <div className="businessWrapper">
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -23,7 +25,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -34,7 +38,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -45,7 +51,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -56,7 +64,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -67,7 +77,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -78,7 +90,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -89,7 +103,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
@@ -100,7 +116,9 @@ const BusinessCard = () => {
 
             <Card
               className="card"
+              card__title="businesscard__title"
               cardTitle="Top 5 SaaS Businesses – August 2021"
+              card__details="businesscard__details"
               cardDetails="Are you currently using one of the top SaaS businesses, according to
             the team at Lunar Strategy? Check out this list of our top SaaS"
             >
