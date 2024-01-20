@@ -1,0 +1,97 @@
+/* ======================================
+            Testimonial css Start
+=========================================*/
+
+.testimonal {
+  padding: 110px 0;
+  background: var(--bg-color, #faf6ff);
+}
+
+.testimonial__heading {
+  color: var(--Black, #000);
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 137.2%;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.testimonial__heading::after {
+  width: 89px;
+  height: 3px;
+  content: "";
+  position: absolute;
+  bottom: -27%;
+  left: 47%;
+  border-radius: 1000px;
+  background: linear-gradient(
+    90deg,
+    #7c14fd 1.09%,
+    rgba(124, 20, 253, 0.29) 99.99%
+  );
+}
+
+.testimonial__body {
+  background: #fff;
+  fill: #fff;
+  filter: drop-shadow(0px 69px 114px rgba(253, 20, 20, 0.08));
+  display: flex;
+  padding: 129px 170px;
+  column-gap: 56px;
+  -webkit-filter: drop-shadow(0px 69px 114px rgba(253, 20, 20, 0.08));
+}
+
+.testimonial__img {
+  position: relative;
+}
+
+.base__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.testimonial__img::after {
+  width: 100px;
+  content: url(/src/assets/quote-left.png);
+  bottom: -17%;
+  left: 15%;
+  position: absolute;
+}
+
+.testimoinial__text {
+  position: relative;
+}
+
+.testimonial__lunar {
+  color: #32046b;
+  font-family: var(--HK-Grotesk);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0.2px;
+  width: 664px;
+  padding-top: 32px;
+}
+
+.testimonial__details {
+  color: #7c14fd;
+  font-family: var(--HK-Grotesk);
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 47px;
+}
+
+.testimonial__arrow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  bottom: 0%;
+  right: -6%;
+}
+
+/* ======================================
+Testimonial css Start
+=========================================*/
