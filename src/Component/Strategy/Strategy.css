@@ -1,0 +1,85 @@
+/* =====================================
+            Strategy Part css Start
+========================================*/
+
+.strategy {
+  background: url(/src/assets/Background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 705px;
+  background-color: var(--bg-color, #faf6ff);
+}
+
+.strategyWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.strategy__left {
+  text-align: center;
+}
+
+.strategy__title {
+  color: var(--Black, #000);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 137.2%;
+  padding-bottom: 20px;
+  margin-top: 117px;
+}
+
+.strategy__details {
+  color: #32046b;
+  font-family: var(--HK-Grotesk);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 42.5px;
+  letter-spacing: 0.2px;
+  width: 616px;
+  padding-bottom: 70px;
+}
+
+.strategy__btn {
+  color: var(--White, #fff);
+  background: #7c14fd;
+  font-family: var(--HK-Grotesk);
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 25px;
+  box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+  padding: 30px 33px;
+  border: 1px solid #7c14fd;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-left: 154px;
+}
+
+.strategy__btn:hover {
+  color: #7c14fd;
+  background: transparent;
+}
+
+.book__btn {
+  padding-top: 2px;
+  font-size: 29px;
+}
+
+.strategy__img {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  margin-top: 123px;
+}
+
+/* =====================================
+            Strategy Part css End
+========================================*/
