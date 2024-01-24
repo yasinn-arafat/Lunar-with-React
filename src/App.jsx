@@ -6,6 +6,7 @@ import Marketing from "./Component/Marketing/Marketing";
 import Testimonial from "./Component/Testimonial/Testimonial";
 import Articles from "./Component/Articels/Articles";
 import Strategy from "./Component/Strategy/Strategy";
+import Footer from "./Component/Fotter/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Testimonial />
       <Articles />
       <Strategy />
+      <Footer />
     </>
   );
 }

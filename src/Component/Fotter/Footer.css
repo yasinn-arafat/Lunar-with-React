@@ -1,0 +1,99 @@
+.footer {
+  background: url(/src/assets/Footer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 536px;
+  background-color: var(--bg-color, #faf6ff);
+}
+
+.footerWraper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 164px;
+}
+
+.footer__details {
+  color: var(--White, #fff);
+  font-family: var(--HK-Grotesk);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31.5px;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+  width: 204px;
+  padding-top: 30px;
+}
+
+.footer__icons {
+  display: flex;
+  column-gap: 11px;
+  margin-top: 40px;
+}
+
+.social__icon {
+  color: var(--Purple);
+  background: var(--bg-color, #faf6ff);
+  width: 40px;
+  height: 40px;
+  font-size: 19px;
+  line-height: 47px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.social__icon:hover {
+  color: var(--bg-color, #faf6ff);
+  background-color: var(--Purple);
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+.services__title {
+  color: var(--White, #fff);
+  font-family: var(--HK-Grotesk);
+  font-weight: 700;
+  line-height: 31.5px;
+  letter-spacing: 0.2px;
+  padding-bottom: 26px;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.services__item a {
+  color: var(--White, #fff);
+  font-family: var(--HK-Grotesk);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31.5px;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+}
+
+.services__item a:hover {
+  color: var(--Purple);
+}
+
+.box__img {
+  background: #9a48ff;
+  width: 390px;
+  height: 224px;
+  border-radius: 20px;
+  box-shadow: 0px 69px 114px 0px rgba(124, 20, 253, 0.08);
+}
