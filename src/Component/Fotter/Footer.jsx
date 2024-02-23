@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="footer__left">
               <picture>
                 <img
-                  src="../src/assets/logo.png"
-                  alt="../src/assets/logo.png"
+                  src="../src/assets/FooterLogo.png"
+                  alt="../src/assets/FooterLogo.png"
                 />
               </picture>
               <p className="footer__details">
